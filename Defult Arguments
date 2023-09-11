@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+void intrest(float p=54.5,float t=6.6,float r=82.5);
+int main()
+{
+	float p=7.5,t=12.7,r=6.8;
+	intreat();
+	intrest(p,t,r);
+	intrest(p);
+}
+inline void intrest(float p, float t, float r)
+{
+	float si;
+	si=(p*t*r)/100;
+	cout<<"simple intrest="<<si<<endl;
+}
