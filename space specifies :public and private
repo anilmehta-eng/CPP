@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+class rectangle
+{
+	private:
+		int length,breadth;
+	public:
+		void get()
+		{
+			lengt=10;
+			breadth=20;
+		}
+		int area()
+		{
+			return(length*breadth);
+		}
+};
+int main()
+{
+	rectangle r;
+	r.get();
+	cout<<"area of rectangle:"<<r.area();
+	return 0;
+}
