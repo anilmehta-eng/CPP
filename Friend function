@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class sample:
+	{
+		private:
+			int x,y;
+		public:
+			friend void print();
+	};
+	void print()
+	{
+		sample s;
+		s.x=500;
+		s.y=500;
+		cout<<"x value="<<s.x<<endl;
+		cout<<"y value="<<s.y<<endl;
+	}
+	int main()
+	{
+		print();
+		return 0;
+	}
