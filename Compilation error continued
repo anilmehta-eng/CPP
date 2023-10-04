@@ -1,0 +1,12 @@
+// Solution as follows
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+   int a = 5;       // `int` for variable. `Int` is incorrect
+   int b = 3;       // `int` for variable. `Int` is incorrect
+   cin>>a>>b;   // ; was missing
+   cout<<a*b;   // cout is followed by << - not by >>
+}
