@@ -1,0 +1,16 @@
+//uncomment the if condition
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    if(b==0)
+    {
+        cout<<"infinity\n";
+        return 0;
+    }
+    cout<<a/b<<"\n";
+    return 0;
+}
